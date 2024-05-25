@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: rgba(195,224,170,1);
+  padding: 20px 0;
+  margin-bottom: 20px; /* Ajuste de margem inferior */
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo img {
+  width: 340px;
+}
+
+header nav {
+  display: flex;
+  gap: 20px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+header nav a.contact {
+  background-color: rgba(195,224,170,1);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+header nav a.login {
+  background-color: #fff;
+  color: rgba(195,224,170,1);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+main {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+main h1 {
+  color: rgba(195,224,170,1);
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+section p {
+  color: #555;
+}
+
+.form-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form-container form {
+  flex: 1;
+  min-width: 300px;
+}
+
+.form-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: rgba(195,224,170,1);
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgba(165, 189, 147, 1);
+}
+
+footer {
+  background-color: rgba(195,224,170,1);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer .footer-logo img {
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+footer .footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+footer .footer-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footer-content div {
+  flex: 1;
+  padding: 10px;
+}
+
+footer .footer-content h3 {
+  margin-top: 0;
+}
+.altura-input {
+  display: flex;
+  align-items: center;
+}
+
+.altura-input input {
+  margin-right: 5px;
+  /* Adicione mais estilos conforme necessário */
+}
+
+.altura-input span {
+  font-size: 14px;
+  color: #555;
+}

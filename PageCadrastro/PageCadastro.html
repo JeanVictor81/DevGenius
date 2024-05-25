@@ -1,0 +1,115 @@
+<!DOCTYPE html> 
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./script.js" defer></script>
+  <title>Vida & Saúde - Gerador de Plano Alimentar</title>
+  <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="logo">
+      <img src="Logo.png" alt="Vida & Saúde">
+    </div>
+    <nav>
+      <a href="#" class="contact">Contato</a>
+      <a href="#" class="login">Login</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <div class="titulo-container">
+    <h2>Gerador de Plano Alimentar</h2>
+    <p>Crie Seu Plano Alimentar Personalizado em Minutos!</p>
+  </div>
+  
+  <div class="form-container">
+    <form>
+      <label for="nome-completo">Informe Seu Nome Completo</label>
+      <input type="text" class="nome" id="nome-completo" name="nome-completo">
+
+      <label for="email">Digite seu E-mail</label>
+      <input type="email" class="email" id="email" name="email">
+
+      <label for="senha">Senha:</label>
+      <input type="password" class="senha" id="senha" name="senha">
+
+      <label for="telefone">Informe Seu Número de Telefone</label>
+      <input type="tel" class="tel" id="telefone" name="telefone">
+
+      <label for="peso">Informe seu Peso Atual em Kg</label>
+      <input type="number" class="peso" id="peso" name="peso" step="0.1">
+
+      <label for="altura">Informe sua Altura</label>
+      <div class="altura-input">
+        <input type="number" class="altura" id="altura" name="altura" min="50" max="250" step="1">
+        <span>cm</span>
+      </div>
+
+      <label for="idade">Informe Sua Idade Atual</label>
+      <input type="number" class="idade" id="idade" name="idade" min="1" max="100">
+
+      <!-- Emagrecimento, hipertrofia, manter a forma -->
+      <label for="objetivo">Informe Seu Objetivo</label>
+      <select class="objetivo" id="objetivo" name="objetivo">
+        <option value="Emagrecimento">Emagrecimento</option>
+        <option value="Ganho da massa muscular">Ganho da massa muscular</option>
+        <option value="Hipertofria">Hipertofria</option>
+        <option value="Manter a Forma">Manter a Forma</option>
+      </select>
+
+      <label for="alergias">Você Possui Restrição de Alergia Alimentar?</label>
+      <input type="text" class="alergia" id="alergias" name="alergias">
+
+      <label for="refeicoes">Quantas refeições realiza por dia?</label>
+      <input type="number" class="refeicoes" id="refeicoes" name="refeicoes">
+
+      <label for="horas-atividade">Pratica Atividades Físicas?</label>
+      <select id="horas-atividade" class="horas-atividade" name="horas-atividade" required>
+        <option value="nao">Não</option>
+        <option value="sim">Sim</option>
+    </select>
+
+      <label for="intolerancia">Você tem alguma Intolerância Alimentar?</label>
+      <input type="text" class="intolerancia" id="intolerancia" name="intolerancia">
+
+      <label for="diabetes">Você tem diabetes?</label>
+      <select id="diabetes" class="diabetes" name="diabetes" required>
+        <option value="nao">Não</option>
+        <option value="sim">Sim</option>
+    </select>
+
+      <label for="colesterol">Você tem histórico de colesterol alto?</label>
+      <select class="colesterol" id="colesterol" name="colesterol">
+        <option value="nao">Não</option>
+        <option value="sim">Sim</option>
+      </select>
+
+      <label for="doencas">Você tem histórico de doenças no coração?</label>
+      <select class="doencas" id="doencas" name="doencas">
+        <option value="nao">Não</option>
+        <option value="sim">Sim</option>
+      </select>
+      <input type="submit" value="Enviar">
+    </form>
+    <img src="v128_663.png" alt="Imagem de alimentos saudáveis">
+  </div>
+</main>
+<footer>
+  <div class="container">
+    <div class="footer-logo">
+      <img src="Logo.png" alt="Vida & Saúde">
+    </div>
+    <div class="footer-links">
+      <a href="#">Home</a>
+      <a href="#">Sobre</a>
+      <a href="#">Serviços</a>
+      <a href="#">Contato</a>
+      <a href="#">FAQ</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
